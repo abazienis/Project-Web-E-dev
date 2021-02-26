@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="Logo2.png" alt="">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="1. home.html" class="cta">Home</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<p id= "description">Thank you for taking the time to help us improve the platform</p><br>
+    <div id="body">
+        <form id="survey-form">
+            <label id="name-label" for="name">
+                <p>Name:</p>
+            </label>
+            <input id="name" type="text" placeholder="Enter Your Name" required>
+
+            <label id="email-label" for="email">
+                <p>Email:</p>
+            </label>
+            <input id="email" type="email" placeholder="Enter Your Email" required>
+   
+            <label id="number-label" for="number">
+                <p>Age:</p>
+            </label>
+            <input id="number" type="number" placeholder="Enter Your Age" min="12" max="50" required>
+
+    <p>Which region of Kosova did you visit?</p>
+        <select id="dropdown">
+            <option value="default">Gjilan region</option>
+            <option value="default">Gjakova region</option>
+            <option value="default">Ferizaj region</option>
+            <option value="default">Mitrovica region</option>
+            <option value="default">Peja region</option>
+            <option value="default">Prishtina region</option>
+            <option value="default">Prizren region</option>
+        </select>
+
+    <p>Which city did you like the most?</p>
+        <label>
+            <input type="radio" name="city" value="1">Gjilan</input><br>
+        </label>
+            <input type="radio" name="city" value="2">Prishtinë</input><br>
+            <input type="radio" name="city" value="3">Prizren</input><br>
+            <input type="radio" name="city" value="4">Peja</input><br>
+            <input type="radio" name="city" value="5">Mitrovica</input><br>
+            <input type="radio" name="city" value="6">Ferizaj</input><br>
+            <input type="radio" name="city" value="7">Gjakova</input><br>
+
+    <p>Will you visit Kosova again?</p>
+            <input type="checkbox" name="visit" value="1">Definitely</input><br>
+            <input type="checkbox" name="visit" value="1">Maybe</input><br>
+            <input type="checkbox" name="visit" value="1">Not sure</input><br>
+            <textarea id="comment" rows="4" cols="40">Add Your Comment Here</textarea>
+            <input id="submit" type="submit" value="Submit">
+            <br>
+        </form>
+    </div>
+</div>
+</body>
+</html>
